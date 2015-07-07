@@ -2,7 +2,7 @@
  * jQuery extension to generate dynamically modals. Do whatever you want :)
  * Hope you find it usefull!
  * 
- * @author Pawe³ Sinica 'Seqe'
+ * @author PaweÂ³ Sinica 'Seqe'
  * @email dev@seqe.pl
  * @repository https://github.com/DevSeqe/pModal.git
  */
@@ -24,7 +24,7 @@
             customClass: '',
             width: false
         };
-
+        console.log('fired');
         var options = $.extend(defaultOptions, opts);
 
         var hasModal = $(this).data('pmodal');
