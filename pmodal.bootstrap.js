@@ -139,6 +139,8 @@
          * @returns {undefined}
          */
         function killModal() {
+            //#2 - remove class modal-open before destroying modal
+            $('body').removeClass('modal-open');
             $('*[data-pmodal='+modalId+']').removeAttr('data-pmodal');
             $('#' + modalId).remove();
         }
